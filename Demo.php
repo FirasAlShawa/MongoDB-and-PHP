@@ -1,6 +1,3 @@
 <?php
-	require 'vendor/autoload.php';
-
-
-
+	echo "Hi... This is Test";
 ?>
