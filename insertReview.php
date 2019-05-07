@@ -21,6 +21,7 @@
 	/*
 		new Employee('id','Name','Skill','Major','Phone','RatePerHour');
 	*/
+
 	$emp = new Employee('1','Firas','MongoDB','Software Engineering','0506104963','120');
 
 	/*
@@ -41,6 +42,7 @@
 		use the static function (EmpDecode(Employee object))
 		to decode the object into json array
 	*/
+	
 	$fEmpCollections->insertOne(Employee::EmpDecode($emp));
 
 	

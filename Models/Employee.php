@@ -2,16 +2,20 @@
 
 Class Employee{
 
-	 public $name , $skill , $major , $phone , $ratePerHour ='';
+	 public $id,$name , $skill , $major , $phone , $ratePerHour ='';
 
-	function __construct($Name , $Skill , $Major , $Phone , $RatePerHour){
+	function __construct($Id,$Name , $Skill , $Major , $Phone , $RatePerHour){
+		$this->id = $Id;
 		$this->name = $Name;
 		$this->skill = $Skill;
 		$this->major = $Major;
 		$this->phone = $Phone;
 		$this->ratePerHour = $RatePerHour;
 	}
-
+//--Id----------------------
+	function getId(){
+		echo $this->$id;
+	}
 //--Name--------------------
 	function getName(){
 		echo $this->$name;
