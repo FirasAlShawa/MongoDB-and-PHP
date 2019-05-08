@@ -55,7 +55,7 @@
 		['$set' => ['skill' => 'Mongo DataBase']]
 	);
 
-	echo 'matchedCount : '.$ManyResult->getMatchedCount() .' modifiedCount : ' . $ManyResult->getModifiedCount(); 
+	echo '<br>matchedCount : '.$ManyResult->getMatchedCount() .' modifiedCount : ' . $ManyResult->getModifiedCount(); 
 
 
 
@@ -78,7 +78,7 @@
 		['$set' => ['State' => 'Married']]
 	);
 
-	echo 'matchedCount : '.$OneResult->getMatchedCount() .' modifiedCount : ' . $OneResult->getModifiedCount(); 
+	echo '<br>matchedCount : '.$OneResult->getMatchedCount() .' modifiedCount : ' . $OneResult->getModifiedCount(); 
 
 
 	$ManyResult = $fEmpCollection->updateMany(
@@ -86,7 +86,7 @@
 		['$set' => ['pre_skill' => 'DataBase Fundamentals']]
 	);
 
-	echo 'matchedCount : '.$ManyResult->getMatchedCount() .' modifiedCount : ' . $ManyResult->getModifiedCount(); 
+	echo '<br>matchedCount : '.$ManyResult->getMatchedCount() .' modifiedCount : ' . $ManyResult->getModifiedCount(); 
 
 
 
