@@ -14,32 +14,32 @@ Class Employee{
 	}
 //--Id----------------------
 	function getId(){
-		echo $this->$id;
+		echo $this->id;
 	}
 //--Name--------------------
 	function getName(){
-		echo $this->$name;
+		echo $this->name;
 	}
 
 	function setName($value){
-		$this->$name = $value;
+		$this->name = $value;
 	}
 //--Skill-------------------
 
 	function getSkill(){
-		echo $this->$skill;
+		echo $this->skill;
 	}
 
 	function setSkill($value){
-		$this->$skill = $value; 
+		$this->skill = $value; 
 	}
 //--Major-------------------
 	function getMajor(){
-		echo $this->$Major;
+		echo $this->Major;
 	}
 
 	function setMajor($value){
-		$this->$Major = $value; 
+		$this->Major = $value; 
 	}
 //--Phone-------------------
 	function getPhone(){
